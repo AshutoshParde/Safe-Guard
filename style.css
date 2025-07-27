@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #ff4d4d;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+/* Main Section */
+.hero {
+    padding: 50px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.hero h2 {
+    color: #ff4d4d;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Emergency Button */
+#emergencyButton {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#stopRecordingButton {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 15px 5px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#emergencyButton:hover {
+    background: #cc0000;
+}
+
+/* Video Preview */
+video {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff4d4d;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
